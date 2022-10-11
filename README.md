@@ -4,7 +4,7 @@
 
 # Domácí úkol
 
-Prvním projektem v rámci kurzu bude vytvoření vizitky. Zadaní najdeš v [tomto](https://github.com/HTML-CSS-1-podklady/Projekt-02-profil) repozitáři. Forkni si ho k sobě. :) 
+Druhým projektem v rámci kurzu bude vytvoření profilu fiktivní osoby. Zadaní najdeš v [tomto](https://github.com/HTML-CSS-1-podklady/Projekt-02-profil) repozitáři. Forkni si ho k sobě. :) 
 
 # Užitečné odkazy
 
