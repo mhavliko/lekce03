@@ -1,0 +1,130 @@
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+main {
+	margin: 0 15%;
+}
+
+.menu {
+	background-color: tomato;
+}
+
+.menu a {
+	display: inline-block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus {
+	background-color: #b42c13;
+}
+
+.paticka {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.rodic {
+	background-color: #e5e5e5;
+	border: 1px dashed #a0a0a0;
+	height: 400px;
+}
+
+.obdelnik {
+	width: 250px;
+	padding: 20px;
+	text-align: center;
+}
+
+.prvni    { background-color: #2ecc71; }
+.druhy     { background-color: #f1c40f; }
+.treti     { background-color: #3498db; }
+.ctvrty   { background-color: #e74c3c; }
+
+.notifikace {
+	max-width: 250px;
+	margin: 30px auto;
+	padding: 10px;
+	border: 1px solid silver;
+}
+
+.odznak {
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color: tomato;
+	color: white;
+	border-radius: 50%;
+}
+
+/* ----------------------------------------------------------- */
+
+body {
+	padding-top: 80px;
+}
+
+.hlavicka {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+.rodic {
+	position: relative;
+	z-index: 5;
+}
+.notifikace {
+	z-index: 5;
+	position: relative;
+}
+
+.prvni {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.druhy {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+.treti {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.ctvrty {
+	position: absolute;
+	right: 50%;
+	bottom: 0;
+}
+
+
+.notifikace {
+	z-index: 5;
+	position: relative;
+}
+
+.odznak {
+	position: absolute;
+	top: -15px;
+    right: -15px;
+}
