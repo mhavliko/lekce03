@@ -21,4 +21,14 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  display: flex
+}
 
+.ctverecek {
+  flex-grow: 1;
+}
+
+.treti {
+  flex-grow: 2;
+}
